@@ -45,7 +45,12 @@ Projenin canlı olarak çalışan sürümü:
 🔗 **https://mini-landing-rosy.vercel.app/**
 
 ## 🚦 Lighthouse Raporu
-(Ekran görüntüsü buraya eklenecek)
+- Performance: 83
+- Accessibility: 87
+- Best Practices: 96
+- SEO: 83
+![Lighthouse Report](./lighthouse.png)
+
 
 ## 📦 Kurulum
 
