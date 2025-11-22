@@ -43,7 +43,7 @@ function Contact() {
           İletişim
         </h2>
         <p className="section__subtitle">
-          Soruların mı var? Formu doldur, sana en kısa sürede geri dönelim.
+Soruların mı var? Formu doldur, sana en kısa sürede e-posta ile geri dönelim.
         </p>
         <form onSubmit={handleSubmit} noValidate>
           <Input
