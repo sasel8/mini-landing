@@ -5,7 +5,7 @@ const faqItems = [
   {
     id: '1',
     question: 'Bu landing sayfası hangi teknolojilerle yapıldı?',
-    answer: 'Vite, React, SCSS ve basit JS etkileşimleri kullanıldı.'
+answer: 'Vite, React, SCSS ve yeniden kullanılabilir UI bileşenleri kullanıldı.'
   },
   {
     id: '2',
