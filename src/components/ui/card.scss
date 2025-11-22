@@ -1,0 +1,21 @@
+.card {
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+
+  &__title {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+  }
+
+  &__body {
+    font-size: 0.95rem;
+  }
+
+  &--featured {
+    border-width: 2px;
+    border-color: var(--color-primary);
+  }
+}

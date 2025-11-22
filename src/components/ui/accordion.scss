@@ -1,0 +1,26 @@
+.accordion {
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+
+  &__item + &__item {
+    border-top: 1px solid var(--color-border);
+  }
+
+  &__trigger {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    background: none;
+    border: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__panel {
+    padding: 0.9rem 1rem 1rem;
+    font-size: 0.95rem;
+  }
+}
