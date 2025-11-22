@@ -1,16 +1,54 @@
-# React + Vite
+# Mini Landing + Bileşen Kütüphanesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje; semantik HTML, modern CSS (SCSS), basit JavaScript etkileşimleri ve yeniden kullanılabilir UI bileşenleri ile geliştirilmiş tek sayfalık bir ürün tanıtım landing sayfasıdır. React + Vite altyapısı kullanılarak modern bir front-end yaklaşımı uygulanmıştır.
 
-Currently, two official plugins are available:
+## 🚀 Teknolojiler
+- Vite + React
+- SCSS (sass-embedded)
+- Vanilla JS ile form doğrulama
+- Light/Dark tema (CSS değişkenleri)
+- Responsive tasarım (3 breakpoint)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Bileşen Kütüphanesi
+Projede küçük bir UI kütüphanesi oluşturulmuştur:
 
-## React Compiler
+- **Button**
+- **Input**
+- **Card**
+- **Modal**
+- **Accordion**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Her bileşen kendi klasöründe, SCSS dosyasıyla birlikte bulunur. Tümü yeniden kullanılabilir şekilde props yapısına sahiptir.
 
-## Expanding the ESLint configuration
+## 🧱 Sayfa Bölümleri
+- Hero
+- Özellikler
+- Fiyatlandırma
+- Sık Sorulan Sorular (Accordion)
+- İletişim Formu (yalancı submit + doğrulama)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✔️ Form Doğrulama
+- İsim, e-posta ve mesaj alanları kontrol edilir.
+- Boş alanlar için hata mesajı gösterilir.
+- E-posta regex ile doğrulanır.
+- Gerçek sunucuya gönderim yok, yalancı submit uygulanır.
+
+## 📱 Breakpoint Yapısı
+Proje aşağıdaki ekran genişlikleri için optimize edilmiştir:
+
+- ≤ 640px (mobil)
+- 641–1024px (tablet)
+- ≥ 1025px (desktop)
+
+## 🌐 Canlı Demo
+Projenin canlı olarak çalışan sürümü:  
+🔗 **https://mini-landing-rosy.vercel.app/**
+
+## 🚦 Lighthouse Raporu
+(Ekran görüntüsü buraya eklenecek)
+
+## 📦 Kurulum
+
+```bash
+npm install
+npm run dev
